@@ -1,6 +1,6 @@
 import SectionTitle from "@components/ui/sectionTitle";
 import { portfolioData } from "@utils/fackData/portfolioData"
-import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { PhotoProvider } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 const Projects = () => {

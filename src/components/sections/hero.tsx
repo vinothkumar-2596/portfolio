@@ -1,4 +1,3 @@
-import { Link } from 'react-scroll';
 import SlideUp from "@utils/animations/slideUp"
 
 const Hero = () => {
