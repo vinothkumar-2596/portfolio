@@ -22,5 +22,13 @@ export const portfolioData = [
         link: 'https://www.figma.com/design/a3GB299ZpsOpug5LYvTcfW/MMS-UI---Handoff-Ver.-file?node-id=0-1&p=f'
 
     },
+      {
+        id: 4,
+        title: "Cofe App",
+        img: "/images/project4.png",
+        category: "Case Study",
+        link: 'https://www.behance.net/gallery/160959591/Coffee-App-UX-Case-Study'
+
+    },
 
 ]
