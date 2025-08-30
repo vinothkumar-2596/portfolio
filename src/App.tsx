@@ -24,10 +24,10 @@ const App = () => {
         <Features />
         <Pricing /> */}
         {/* <Faqs /> */}
-        <Booking />
+        {/* <Booking /> */}
       </main>
-      <Footer />
-      <ScrollToTop />
+      {/* <Footer /> */}
+      {/* <ScrollToTop /> */}
     </>
   )
 }

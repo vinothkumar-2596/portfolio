@@ -19,14 +19,14 @@ const Projects = () => {
                 <PhotoProvider>
                     <div className="row g-4 portfolio-grid">
                         {
-                            portfolioData.map(({ category, id, img, title }) =>
-                                <Card key={id} category={category} img={img} title={title} />
+                            portfolioData.map(({ category, id, img, title,link }) =>
+                                <Card key={id} category={category} img={img} title={title} link={link}/>
                             )
                         }
                     </div>
                 </PhotoProvider>
                 <div className="row">
-                    <div className="hero-btns text-center"><a href="#" className="theme-btn">View all works</a></div>
+                    {/* <div className="hero-btns text-center"><a href="#" className="theme-btn">View all works</a></div> */}
                 </div>
             </div>
         </div>
@@ -39,12 +39,12 @@ export default Projects
 interface PropsType {
     img: string,
     title: string,
-    category: string
+    category: string,
+    link:string
 }
-const Card = ({ img, title, category }: PropsType) => {
+const Card = ({ img, title, category,link }: PropsType) => {
     return (
-        <div className="col-md-6 col-xl-6 portfolio-item category-2">
-            <PhotoView src={img}>
+        <div className="col-md-6 col-xl-6 portfolio-item category-2" onClick={() => window.open(link)}>
                 <div className="portfolio-box work-popup">
                     <img src={img} alt="img" data-rjs={2} />
                     <span className="portfolio-category">{category}</span>
@@ -52,7 +52,6 @@ const Card = ({ img, title, category }: PropsType) => {
                         <h1>{title}</h1>
                     </div>
                 </div>
-            </PhotoView>
         </div>
     )
 }
