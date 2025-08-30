@@ -34,7 +34,7 @@ export const portfolioData = [
         id: 5,
         title: "Skill Bench",
         img: "/images/project5.png",
-        category: "Case Study",
+        category: "UI/UX",
         link: 'https://www.figma.com/design/CM6L1QWa6opihUaSyBUKJm/Skillbench.io?node-id=551-55&p=f'
 
     },
