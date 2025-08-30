@@ -46,7 +46,7 @@ Version      : 1.0
     --black-color: #070707;
     --border-color: #ff4f01;
     --button-border: #ff4f01;
-    --body-background: #fff6ec;
+    --body-background: #b5c5db;
     --white-color: #fff;
 }
 
@@ -953,7 +953,7 @@ html {
 .main-hero-area {
     padding-top: 200px;
     padding-bottom: 20px;
-    background-color: #fff6ec;
+    background-color: #b5c5db;
 }
 
 .hero-content {
