@@ -30,5 +30,13 @@ export const portfolioData = [
         link: 'https://www.behance.net/gallery/160959591/Coffee-App-UX-Case-Study'
 
     },
+     {
+        id: 5,
+        title: "Skill Bench",
+        img: "/images/project5.png",
+        category: "Case Study",
+        link: 'https://www.figma.com/design/CM6L1QWa6opihUaSyBUKJm/Skillbench.io?node-id=551-55&p=f'
+
+    },
 
 ]
